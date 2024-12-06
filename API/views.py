@@ -14,6 +14,7 @@ from rest_framework.authentication import TokenAuthentication
 
 from rest_framework.authtoken.models import Token
 
+
 # Método de login
 @api_view(['POST'])
 @permission_classes([AllowAny])  # Permite acceso sin autenticación
